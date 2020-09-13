@@ -2,7 +2,7 @@
 
 ## ECMAScript
 
-- [JavaScript コーディング規約](./ecmascript/js-docing-rules.md)
+- [JavaScript コーディング規約](./ecmascript/js-coding-rules.md)
 
 ## Links
 
