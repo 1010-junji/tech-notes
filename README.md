@@ -1,8 +1,5 @@
-# tech-notes
-テクニカルノート集
+# ちょっとしたメモ、テクニカルノート
 
+## Links
 
-TDD
-de:code 2017
-50 分でわかるテスト駆動開発
-https://channel9.msdn.com/Events/de-code/2017/DO03
+- [Software Engineering系](./links/se.md)
