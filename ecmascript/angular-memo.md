@@ -10,13 +10,19 @@
     > npm init
     ```
 
-- Anguler cli インストール
+### Angular 開発環境の設定
+
+- Angular cli インストール
+    - Angular の操作、環境構築などをコマンドラインで実行するためのツール
     - なんとなく環境汚したくないので `-g` オプションはつけない
+    - あくまでツールであり、本番環境では不要なので`-D`オプションをつける
     ```cmd
-    > npm install @angular/cli
+    > npm i -D @angular/cli
     ```
 
-- アプリケーションを作る
+### Angular アプリの作成
+
+- アプリケーションが属するプロジェクトの作成
     - routing は `y`
     - Stylesheet は `CSS` か `Sass`
     ```cmd
@@ -28,7 +34,7 @@
     - `Compiled successfully` が表示されたら、`http://localhost:4200` へアクセス
     ```cmd
     > cd fst-app
-    > npx ng serve
+    > npx ng serve --open または npx ng s -o
     ```
 
     ![Welcome page](./img/ng-serve_fst-app01.png)
